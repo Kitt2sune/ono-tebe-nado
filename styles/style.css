@@ -1,1 +1,381 @@
-/* место для вашего кода */
+
+
+/*Main*/
+
+.Main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+/*Header*/
+
+.Header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 293px;
+    position: relative;
+
+}
+
+.Header-Container {
+
+    min-height: 105px;
+    min-width: 1052px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 44px 2px 26px;
+
+}
+
+.Header-Menu-List {
+
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+    font-size: 18px;
+    list-style-type: circle;
+
+}
+
+.Header-Menu-List-Item-First {
+
+    list-style-type: none;
+
+}
+
+.Header-Logo-Black-Image {
+    
+    width: 148px;
+    height: 105px;
+    position: absolute;
+    top: 92px;
+    left: 478px;
+
+}
+
+
+/*Commoms-Styles*/
+
+.Contacts {
+
+    display: flex;
+    flex-direction: column;
+    width: 221px;
+    gap: 4px;
+    font-size: 18px;
+
+}
+
+.Normal-Style {
+
+    font-style: normal;
+
+}
+
+.Underline {
+
+    text-decoration: underline 1px;
+    text-underline-offset: 5px;
+
+}
+
+.Image-Position {
+
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+/*Section-Jambotron*/
+
+.Jambotron-Container {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6) 0 0), url(../images/cover.jpg);
+    min-height: 757px;
+    padding: 165px 0 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.Jambotron-Title-Container {
+
+    min-height: 355px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 27.5% 28%;
+    row-gap: 6px;
+    color: white;
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+
+}
+
+.Jambotron-Title-Ono {
+
+    grid-area: 1 / 1 ;
+
+}
+
+.Jambotron-Title-Tebe {
+
+    grid-area: 2 / 2 ;
+
+}
+
+.Jambotron-Title-Nado {
+
+    grid-area: 3 / 3;
+
+}
+
+.Space-Letter {
+
+    letter-spacing: 60px;
+
+}
+
+.Action-Button {
+
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 12px 32px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+
+}
+
+.Jambotron-Phrase {
+ 
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 400;
+    word-spacing: 20px;
+    display: inline-block;
+    margin-left: 26px;
+    margin-right: 72px;
+
+}
+
+
+/*Section-Lots*/
+
+.Lots-Container {
+
+    min-height: 692px;
+    margin: 179px 24px 146px 24px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.Lots-Title {
+
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 40px;
+
+}
+
+.Cards-Container {
+
+    min-height: 563px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+
+
+}
+
+.Card {
+
+    width: 334px;
+    height: 563px;
+    padding: 51px 40px 48px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.Title-Card {
+
+    color: white;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+.Paragraph-Card {
+
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.Lots-Background1 {
+
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.65) 0 0), 
+    url(../images/card-lot-01.jpg);
+
+}
+
+.Lots-Background2 {
+
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.65) 0 0), 
+    url(../images/card-lot-02.jpg);
+
+}
+
+.Lots-Background3 {
+
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.65) 0 0), 
+    url(../images/card-lot-03.jpg);
+
+}
+
+.More-Botton {
+
+    font-size: 20px;
+    margin-left: 40px;
+
+}
+
+
+/*Section-About*/
+
+.About-Container {
+
+    min-height: 595px;
+    margin: 0 24px 160px 24px;
+    position: relative;
+    padding: 133px 0 13px 359px;
+
+}
+
+.About-Text-Container {
+
+    min-width: 693px;
+    min-height: 449px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 105px;
+
+}
+
+.Logo-White-Image {
+
+    height: 114px;
+    width: 148px;
+
+}
+
+.About-Title {
+
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.About-Paragraph {
+
+    display: grid;
+    gap: 25px;
+    min-height: 312px;
+    min-width: 693px;
+    font-size: 20px;
+
+}
+
+.Circle {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 240px;
+    border-radius: 150px;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    top: 35px;
+    left: 47px;
+
+}
+
+.About-Paragraph1 {
+    width: 663px;
+}
+
+
+/*Footer*/
+
+.Footer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95px;
+
+}
+
+.Footer-Container {
+
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+.Footer-Menu-List {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    list-style-type: none;
+    font-size: 18px;
+    margin-left: 20px;
+
+}
+
+.Footer-Social {
+
+    display: flex;
+    justify-content: space-between;
+    min-width: 240px;
+
+}
+
+.Footer-Social-VK, .Footer-Social-YouTube, .Footer-Social-Pinterest {
+
+    width: 48px;
+    height: 48px;
+
+}
+
